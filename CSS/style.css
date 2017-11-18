@@ -1,0 +1,75 @@
+.thumbnail {
+  float: left;
+  width: 5%;
+  height: 5%;
+  margin: 0.5%;
+  min-width: 50px;
+}
+
+.cover {
+  width: 98%;
+  margin: 0.5%;
+  display: inline;
+}
+
+.large {
+  width: 100%;
+  margin: 0.5%;
+  display: inline;
+  flex: 1;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.column {
+  margin: 0.5%;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.box {
+  width: 100%;
+  height: 5px;
+  border: 0px solid rgba(0, 0, 0, .2);
+}
+
+.text {
+  font-family: "Bubbler One", "Open Sans", sans-serif;
+  margin: 0.5%;
+}
+
+
+.gray {
+  background: #7d97ad;
+}
+
+.gray-text {
+  color: #7d97ad;
+}
+
+.blue {
+  background: #02b3e4;
+}
+
+.charcoal {
+  background: #34495E;
+}
+
+.right-align {
+  text-align: right;
+}
+
+.left-align {
+  text-align: left;
+}
+
+.center-align {
+  text-align: center;
+}
