@@ -73,3 +73,21 @@
 .center-align {
   text-align: center;
 }
+
+@media only screen and (max-width: 1024px) {
+
+}
+
+@media only screen and (max-width: 900px) {
+
+}
+
+@media only screen and (max-width: 750px) {
+  .large {
+    display: block;
+    margin-top: 5%;
+  }
+  .column {
+    margin-top: 5%;
+  }
+}
