@@ -25,7 +25,7 @@ zootopia = media.Movie(
     "In a city where predators and prey live in harmony, \
     a rabbit and a fox must solve the mystery of why some \
     predators are going feral",
-    "http://www.impawards.com/2016/posters/zootopia_ver3.jpg",  # noqa
+    "https://lumiere-a.akamaihd.net/v1/images/movie_poster_zootopia_866a1bf2.jpeg?region=0%2C0%2C300%2C450",# noqa
     "https://www.youtube.com/watch?v=jWM0ct-OLsM")
 
 avatar = media.Movie(
