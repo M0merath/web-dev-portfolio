@@ -10,7 +10,7 @@ toy_story = media.Movie(
     "Toy Story",
     "A story of a boy and his toys that come to life",
     "http://1.bp.blogspot.com/-4CEJ24flM5U/T-ePLTwLdyI/AAAAAAAAHcQ/GGYVN8SVxG0/s1600/Toy+Story+%281995%29+1.jpg",  # noqa
-    "https://www.youtube.com/watch?v=vwyZH85NQC4")
+    "https://youtu.be/KYz2wyBy3kc")
 
 back_to_the_future = media.Movie(
     "Back to the Future",
@@ -25,7 +25,7 @@ zootopia = media.Movie(
     "In a city where predators and prey live in harmony, \
     a rabbit and a fox must solve the mystery of why some \
     predators are going feral",
-    "https://lumiere-a.akamaihd.net/v1/images/movie_poster_zootopia_866a1bf2.jpeg?region=0%2C0%2C300%2C450",# noqa
+    "https://fanart.tv/fanart/movies/269149/movieposter/zootopia-573d4ac67fca3.jpg",# noqa
     "https://www.youtube.com/watch?v=jWM0ct-OLsM")
 
 avatar = media.Movie(

@@ -40,6 +40,23 @@ body {background-color: #CCC;}
     padding:10px;
     border-top: 1px solid #CCC;
 }
+
 .article:first-child {
     border-top:none;
+}
+
+.orange {
+    background-color: #E09873;
+}
+
+.clear-fix {
+    overflow: auto;
+}
+
+.navbar {
+    max-height: 60px;
+}
+
+.navbar-button {
+    height: 60px;
 }
