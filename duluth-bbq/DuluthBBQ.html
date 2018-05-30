@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Korean BBQ in Duluth, GA</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+	
+<body>
+
+<!-- The listings sidebar -->
+	<div class="container">
+    <div class="options-box" id="options-box" data-bind="css: {shrunk: shrink}">
+      <button class="close-btn" data-bind="click: sidebarToggle">+/-</button>
+      <h2>Korean BBQ in Duluth, GA</h2>
+      <div>
+        <div class="searchbar" id="searchbar">
+          <input type="text" placeholder="Type here to filter results" name="search" id="search" data-bind="textInput: searchEntry, valueUpdate: 'afterkeydown'">
+        </div>
+        <div class="sidebar">
+          <ul id="sidebar" data-bind="foreach: searchFilter">
+          	<a href="#"><li id="restaurant" data-bind="text: title, click: $parent.sidebarBounce"></li></a>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- The map -->
+	<div id="map"></div>
+	<script src="js/libs/jquery.min.js"></script>
+	<script src="js/DuluthBBQ.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.2/knockout-min.js"></script>
+	<!-- Call the Google Maps API. -->
+	<script async defer src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyCK9oBT1vADTLkfMwPTxYxrrScY-kJEQHs&libraries=geometry&callback=getStarted" onerror="googleError()"></script>
+</body>
+</html>
