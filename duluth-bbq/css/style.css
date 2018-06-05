@@ -30,20 +30,19 @@
         padding: 10px 10px 30px 10px;
         text-align: left;
         height: 100%;
-        width: 30%;
+        width: 40%;
+        min-width: 300px;
         position: fixed;
-        z-index: 1;
+        z-index: 9999;
         background-color: #111;
         overflow-x: hidden;
         transition: 0.5s;
         padding-top: 60px;
+        cursor: pointer;
       }
     .shrunk {
         width: 10%;
+        min-width: 80px;
     }
 
-    @media only screen and (max-width: 750px) {
-        .options-box {
-            width: 60%;
-        }
     }
